@@ -4,9 +4,11 @@ public class Numbers {
       //int A [1] [6];
       int zeros =0;
       
-     int [] A = {1,0,5,6,0,2};
+  int [] A = {1,0,5,6,0,2};
+  
+  int arrayLength = A.length;
      
-     for (int i = 0; i == count(A); i ++){
+     for (int i = 0; i < arrayLength; i ++){
          if (A[i] == 0) {
              zeros = zeros + 1;
          }
